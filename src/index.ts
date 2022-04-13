@@ -19,6 +19,8 @@ class Blcok {
   }
 }
 
-const genesisBlock: Blcok = new Blcok(0, "20202020220202", "", "Hello");
+const genesisBlock: Blcok = new Blcok(0, "20202020220202", "", "Hello", 123456);
+
+let blockChain;
 
 export {};
